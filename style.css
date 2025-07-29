@@ -14,8 +14,9 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-size: 200px auto;
-    background-color: white;
+    background-size: 400px auto;
+    background-color: #d91f1d;
+    /* 🔹 Mario red */
     padding: 100px 40px;
     color: #fff;
     text-align: center;
