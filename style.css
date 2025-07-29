@@ -1,15 +1,32 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    background-color: #d91f1d;
+    /* 🔹 Mario Red */
     color: #fff;
     text-align: center;
 }
 
+
 header {
-    padding: 40px 20px;
-    background-color: rgba(0, 0, 0, 0.4);
+    padding: 60px 20px;
+    background-image: url('header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 200px auto;
+    background-color: white;
+    padding: 100px 40px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
+
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
 
 h1 {
     font-size: 2.5rem;
@@ -23,10 +40,13 @@ h1 {
 
 section {
     margin: 40px 0;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #d91f1d;
+    /* 🔹 Mario red */
     padding: 20px;
     border-radius: 15px;
     width: 80%;
+    color: white;
+    /* Make text readable */
     margin-left: auto;
     margin-right: auto;
 }
@@ -54,6 +74,13 @@ button {
 
 button:hover {
     background: #ffdd33;
+}
+
+.date {
+    font-size: 1.2rem;
+    color: #ffcc00;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 footer {
