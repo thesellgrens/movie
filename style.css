@@ -12,15 +12,12 @@ header {
     padding: 60px 20px;
     background-image: url('header-bg.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-position: center top;
     background-size: 400px auto;
     background-color: #d91f1d;
     /* 🔹 Mario red */
-    padding: 100px 40px;
+    padding: 150px 0px 0px 0px;
     color: #fff;
-    text-align: center;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
 
