@@ -38,10 +38,7 @@ h1 {
     font-family: 'SuperMario', sans-serif;
     font-size: 2.8rem;
     margin-bottom: 10px;
-    color: #ffcc00;
-    /* Optional: Mario yellow */
-    text-shadow: 3px 3px 0 #000;
-    /* Adds a bold outline for readability */
+    color: white;/
 }
 
 .featured-movie img {
@@ -90,7 +87,7 @@ button:hover {
 
 .date {
     font-size: 1.2rem;
-    color: #ffcc00;
+    color: white;
     margin-top: 10px;
     font-weight: bold;
 }
