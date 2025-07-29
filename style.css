@@ -29,8 +29,19 @@ h1 {
 }
 
 
+@font-face {
+    font-family: 'SuperMario';
+    src: url('fonts/SuperMario256.ttf') format('truetype');
+}
+
 h1 {
-    font-size: 2.5rem;
+    font-family: 'SuperMario', sans-serif;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    color: #ffcc00;
+    /* Optional: Mario yellow */
+    text-shadow: 3px 3px 0 #000;
+    /* Adds a bold outline for readability */
 }
 
 .featured-movie img {
