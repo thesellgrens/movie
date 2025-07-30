@@ -35,7 +35,8 @@ h1 {
 
 /* 🔹 Featured Movie Poster */
 .featured-movie img,
-.snacks img {
+.snacks img,
+.music img {
     width: 300px;
     border-radius: 15px;
     margin: 20px 0;
