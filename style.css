@@ -89,38 +89,10 @@ section {
     text-align: center;
 }
 
-
-/* 🔹 Remove old list & button styles if not used */
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    margin: 5px 0;
-    font-size: 1.2rem;
-}
-
-button {
-    margin-top: 10px;
-    padding: 8px 20px;
-    border: none;
-    border-radius: 8px;
-    background: #ffcc00;
-    color: #333;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #ffdd33;
-}
-
 /* 🔹 Date Style */
 .date {
     font-size: 1.2rem;
     color: white;
-    margin-top: 10px;
     font-weight: bold;
 }
 
@@ -130,4 +102,22 @@ footer {
     padding: 20px;
     font-size: 0.9rem;
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    /* Mario yellow */
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.read-more:hover {
+    background-color: #ffdd33;
+    transform: scale(1.05);
 }
