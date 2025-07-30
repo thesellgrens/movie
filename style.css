@@ -7,20 +7,20 @@ body {
     text-align: center;
 }
 
-
 header {
-    padding: 60px 20px;
     background-image: url('header-bg.png');
     background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 400px auto;
+    background-position: center;
+    background-size: 100px;
     background-color: #d91f1d;
     /* 🔹 Mario red */
-    padding: 135px 0px 0px 0px;
+    padding: 100px;
+    margin-top: 40px;
+    display: block;
     color: #fff;
 }
 
-
+/* 🔹 Add custom Mario font */
 @font-face {
     font-family: 'SuperMario';
     src: url('fonts/SuperMario256.ttf') format('truetype');
@@ -30,28 +30,42 @@ h1 {
     font-family: 'SuperMario', sans-serif;
     font-size: 1.8rem;
     margin-bottom: 0px;
-    color: white;/
+    color: white;
 }
 
-.featured-movie img {
+/* 🔹 Featured Movie Poster */
+.featured-movie img,
+.snacks img {
     width: 300px;
     border-radius: 15px;
     margin: 20px 0;
-}
-
-section {
-    margin: 0px 0;
-    background-color: #d91f1d;
-    /* 🔹 Mario red */
-    padding: 5px;
-    border-radius: 15px;
-    width: 80%;
-    color: white;
-    /* Make text readable */
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+.section-separator img {
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto;
+    display: block;
+    padding: 50px;
+}
+
+/* 🔹 Section General Style */
+section {
+    background-color: #d91f1d;
+    /* Mario Red */
+    padding: 0px;
+    width: 80%;
+    color: white;
+    /* Make text readable */
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* 🔹 Remove old list & button styles if not used */
 ul {
     list-style: none;
     padding: 0;
@@ -77,6 +91,7 @@ button:hover {
     background: #ffdd33;
 }
 
+/* 🔹 Date Style */
 .date {
     font-size: 1.2rem;
     color: white;
@@ -84,6 +99,7 @@ button:hover {
     font-weight: bold;
 }
 
+/* 🔹 Footer Style */
 footer {
     margin-top: 40px;
     padding: 20px;
