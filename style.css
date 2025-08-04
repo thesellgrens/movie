@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #d91f1d;
+    background-color: black;
     /* 🔹 Mario Red */
     color: #fff;
     text-align: center;
@@ -12,9 +12,9 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100px;
-    background-color: #d91f1d;
+    background-color: black;
     /* 🔹 Mario red */
-    padding: 100px;
+    padding: 00px;
     margin-top: 40px;
     display: block;
     color: #fff;
@@ -24,19 +24,19 @@ header {
 
 /* 🔹 Add custom Mario font */
 @font-face {
-    font-family: 'SuperMario';
-    src: url('fonts/SuperMario256.ttf') format('truetype');
+    font-family: 'Font';
+    src: url('fonts/font.ttf') format('truetype');
 }
 
 h1 {
-    font-family: 'SuperMario', sans-serif;
+    font-family: 'Font', sans-serif;
     font-size: 1.8rem;
     margin-bottom: 0px;
     color: white;
 }
 
 h2 {
-    font-family: 'SuperMario', sans-serif;
+    font-family: 'Font', sans-serif;
     font-size: 1.5rem;
     margin-bottom: 0px;
     color: white;
@@ -52,13 +52,18 @@ h3 {
 .snack img,
 .drink img,
 .music img,
-.movie img {
+.movie-night img {
     width: 300px;
     max-width: 90%;
     /* Will shrink to fit screen */
     border-radius: 15px;
     margin: 20px auto;
     display: block;
+}
+
+.movie-night img {
+    width: 600px;
+    padding: 50px;
 }
 
 .end img {
@@ -79,7 +84,7 @@ h3 {
 
 /* 🔹 Section General Style */
 section {
-    background-color: #d91f1d;
+    background-color: black;
     /* Mario Red */
     padding: 0px;
     width: 80%;
