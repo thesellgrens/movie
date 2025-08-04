@@ -49,6 +49,18 @@ h3 {
     font-weight: bold
 }
 
+.featured-movie p,
+.snack p,
+.drink p,
+.music p,
+.previous-movies p {
+    max-width: 500px;
+    /* same as your images */
+    margin: 0 auto 20px;
+    /* center the text under the image */
+    text-align: center;
+}
+
 /* 🔹 Featured Movie Poster */
 .featured-movie img,
 .snack img,
@@ -69,6 +81,7 @@ h3 {
     margin: 0 auto;
     /* Will shrink to fit screen */
 }
+
 
 
 .section-separator img {
