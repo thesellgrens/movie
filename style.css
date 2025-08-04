@@ -63,16 +63,10 @@ h3 {
 
 .movie-night img {
     width: 600px;
-    padding: 50px;
+    max-width: 95%;
+    /* Will shrink to fit screen */
 }
 
-.end img {
-    width: 50px;
-    max-width: 20%;
-    /* Adjusts on small screens */
-    display: block;
-    margin: 40px auto;
-}
 
 .section-separator img {
     width: 100%;
