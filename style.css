@@ -13,8 +13,6 @@ header {
     background-position: center;
     background-size: 100px;
     background-color: black;
-    /* 🔹 Mario red */
-    padding: 00px;
     margin-top: 40px;
     display: block;
     color: #fff;
@@ -22,21 +20,26 @@ header {
 
 
 
-/* 🔹 Add custom Mario font */
+/* 🔹 Add custom font */
 @font-face {
-    font-family: 'Font';
-    src: url('fonts/font.ttf') format('truetype');
+    font-family: 'Revue';
+    src: url('fonts/revue.woff2') format('woff2'),
+        url('fonts/revue.woff') format('woff'),
+        url('fonts/revue.ttf') format('truetype');
+}
+
+h1,
+h2 {
+    font-family: 'Revue', sans-serif;
 }
 
 h1 {
-    font-family: 'Font', sans-serif;
     font-size: 1.8rem;
     margin-bottom: 0px;
     color: white;
 }
 
 h2 {
-    font-family: 'Font', sans-serif;
     font-size: 1.5rem;
     margin-bottom: 0px;
     color: white;
