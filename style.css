@@ -8,12 +8,11 @@ body {
 }
 
 header {
-    background-image: url('img-main/header-bg.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100px;
+    width: 400px;
+    background-size: 100%;
     background-color: black;
-    margin-top: 40px;
     display: block;
     color: #fff;
 }
@@ -65,8 +64,9 @@ h3 {
 }
 
 .movie-night img {
-    width: 95%;
+    width: 600px;
     max-width: 100%;
+    margin: 0 auto;
     /* Will shrink to fit screen */
 }
 
@@ -89,6 +89,13 @@ section {
     /* Make text readable */
     margin: 0 auto;
     text-align: center;
+}
+
+/* Override for the movie-night section */
+.movie-night {
+    width: 95%;
+    margin: 0 auto;
+    /* centers it */
 }
 
 /* 🔹 Date Style */
